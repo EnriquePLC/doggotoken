@@ -1,0 +1,732 @@
+@media (max-width: 1024px) {
+    .auto__container {
+      padding: 0 60px;
+    }
+    h1 span {
+      font-size: 80px;
+      line-height: 90px;
+    }
+    h1 span::after {
+      height: 5px;
+    }
+    h2 span {
+      font-size: 72px;
+      line-height: 1;
+    }
+    h2 span::after {
+      height: 5px;
+    }
+    .section-container {
+      flex-direction: column-reverse;
+    }
+    .section-text-text {
+      font-size: 32px;
+      line-height: 1;
+    }
+    .section-text-timer {
+      font-weight: bold;
+      line-height: 1.1;
+      padding-top: 0px;
+      padding-bottom: 16px;
+    }
+    .intro__inner-column {
+      width: 100%;
+    }
+  
+    .intro__inner-column-link {
+      text-align: center;
+    }
+  
+    .intro__inner-column-link-copy strong {
+      font-size: 30px;
+      line-height: 1;
+      padding-left: 5px;
+    }
+  
+    .intro__inner-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -ms-flex-direction: column;
+    }
+  
+    .join__inner {
+      padding-bottom: 40px;
+    }
+  
+    .join__inner-row {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  
+    .join__inner-row-link {
+      margin: 5px 15px;
+      width: calc(20% - 30px);
+    }
+  
+    .meme__inner-card {
+      width: calc(50% - 50px);
+    }
+  
+    .paper__inner-subtitle {
+      font-size: 42px;
+      line-height: 52px;
+    }
+  
+    .paper__inner-links-link {
+      font-size: 54px;
+      line-height: 60px;
+    }
+  
+    .wallet__inner-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -ms-flex-direction: column;
+    }
+  
+    .wallet__inner-column {
+      width: 100%;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+  
+    .wallet__inner-column-link-copy strong {
+      font-size: 30px;
+      line-height: 1;
+      padding-left: 5px;
+    }
+  
+    .info__inner-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -ms-flex-direction: column;
+    }
+  
+    .info__inner-image {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .info__inner-image img {
+      width: 100%;
+    }
+  
+    .footer__inner {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+  
+    .footer__inner-nav {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .footer__inner-column {
+      width: 50%;
+    }
+  
+    .footer__inner-column:first-child {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+    }
+  
+    .footer__inner-column:last-child {
+      -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+      order: 3;
+    }
+  
+    .story__inner-footer {
+      max-width: 330px;
+    }
+  
+    .article h4 {
+      font-size: 42px;
+      line-height: 50px;
+      padding: 20px 0;
+    }
+  
+    .article__inner {
+      padding-left: 20px;
+    }
+  
+    .article__inner-date {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 20px;
+    }
+  
+    .article__inner p {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+  
+    .earning {
+      padding: 40px 0;
+    }
+  
+    .earning__inner-title {
+      font-size: 42px;
+      line-height: 50px;
+    }
+  
+    .earning__inner-title br {
+      display: none;
+    }
+  
+    .earning__inner-row-card {
+      width: 25%;
+      max-width: 140px;
+    }
+  
+    .earning__inner-row-card-title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  
+    .tab {
+      padding-bottom: 150px;
+    }
+  
+    .tab__inner-body-content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -ms-flex-direction: column;
+    }
+  
+    .card {
+      width: calc(100% - 80px);
+      padding: 40px;
+      margin-bottom: 20px;
+    }
+  
+    .card:last-child {
+      margin-bottom: 0;
+    }
+  
+    .memeTemp {
+      padding: 40px 0 150px 0;
+    }
+  
+    .memeTemp__inner h1 {
+      margin-bottom: 15px;
+    }
+  
+    .memeTemp__inner h1 span {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .memeTemp__inner h1 span::after {
+      height: 4px;
+    }
+  
+    .memeTemp__inner-subtitle {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  
+    .memeTemp__inner-row {
+      margin: 40px auto;
+    }
+  
+    .memeTemp__inner-content {
+      margin: 30px auto 0 auto;
+    }
+  
+    .memeTemp__inner-content-more {
+      font-size: 32px;
+      max-width: 240px;
+      margin: 20px auto 0 auto;
+    }
+    .mob-none{
+      display: none !important;
+    }
+    .two-col{
+      grid-template-columns: 100%;
+      column-gap: 0;
+    }
+    .logo {
+      width: 121.5px !important;
+    }
+    section.under-header{
+      padding-top: 50px;
+      padding-bottom: 60px;
+    }
+    .under-header .col-12{
+      height: unset;
+      min-height: unset;
+      max-height: unset;
+    }
+    .under-header .col-12 .section-text>img{
+      display: block;
+      width: 525px;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    .tokenomics .col-12 .section-text,
+    .under-header .col-12 .section-image{
+      order: 1;
+    }
+    .tokenomics .col-12 .section-image,
+    .under-header .col-12 .section-text{
+      order: 2;
+      margin-top: 50px;
+    }
+    .ecosystem .section-text>img:last-of-type,
+    .coming .section-text-text,
+    .section-text-farming>.section-text-text,
+    .tokenomics-burn,
+    .tokenomics-text>.section-text-text,
+    .fud .section-text>.section-text-text,
+    .under-header .section-text-text,
+    .under-header .section-image-img{
+      width: 650px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .under-header .section-image-img{
+      width: 550px;
+    }
+    .under-header .section-text>a {
+      margin-top: 15px;
+  }
+    .btn-img {
+      width: unset;
+      height: 65px;
+    }
+    .fud .section-image>img:first-of-type{
+      /*width: 425px;*/
+      margin-bottom: 50px;
+    }
+    .farming .section-image-img,
+    .coming .section-text>img,
+    .fud .section-image>img+img{
+      width: 575px;
+      max-width: 100%;
+    }
+    .tokenomics .button-container{
+      justify-content: center;
+    }
+    .tokenomics .button-container-button+.button-container-button,
+    .tokenomics .button-container-button{
+      flex: unset;
+    }
+    .section-text-farming{
+      max-width: unset;
+    }
+    .coming .two-col{
+      row-gap: 75px;
+    }
+    .coming .two-col>.section-text:last-of-type {
+      grid-column-start: unset;
+      grid-column-end: unset;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .coming .chip{
+    right: -3px;
+    top: -14px;
+  }
+  .ecosystem .section-text+.section-text{
+    margin-top: 75px;
+  }
+  .ecosystem .section-text-list li {
+    font-size: 32px;
+  }
+  .team {
+    width: 78%;
+  }
+  .team_row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 20px;
+  }
+  .team>.team_row:last-of-type>a:last-of-type,
+  .team>.team_row:first-of-type>a {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .team>.team_row:last-of-type>a:nth-last-child(2) {
+    grid-column-start: unset;
+    grid-column-end: unset;
+  }
+  }
+  
+  @media screen and (max-width: 899px) {
+    .team {
+      width: 88%;
+    }
+  }
+  @media screen and (max-width: 799px) {
+    .team {
+      width: 88%;
+    }
+    .team_row {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-column-gap: 20px;
+  }
+  .team_link{
+    margin: 0 auto;
+  }
+  .team_member{
+    width: fit-content;
+  }
+  .team>.team_row:first-of-type>a {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  }
+  @media (max-width: 680px) {
+    .earning__inner-footer-column-row span {
+      font-size: 20px;
+    }
+  
+    .earning__inner-footer-column-input span {
+      font-size: 36px;
+    }
+  
+    .earning__inner-footer-column-input input {
+      font-size: 28px;
+      width: 180px;
+    }
+  
+    .btn-max {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  
+    .earning__inner-footer-btn {
+      font-size: 38px;
+    }
+  
+    .earning__inner-footer-btn img {
+      width: 40px;
+      height: 30px;
+      bottom: 5px;
+    }
+  
+    h1 span {
+      font-size: 64px;
+      line-height: 72px;
+    }
+  
+    h1 span::after {
+      height: 4px;
+    }
+  
+    h2 span {
+      font-size: 52px;
+      line-height: 60px;
+    }
+  
+    h2 span::after {
+      height: 3px;
+    }
+  
+    .intro__inner-column-link {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .intro__inner-column-link-copy {
+      font-size: 20px;
+      line-height: 1;
+    }
+  
+    .meme {
+      padding: 40px 0;
+    }
+  
+    .meme__inner-download {
+      max-width: 200px;
+    }
+  
+    .meme__inner-card {
+      width: calc(50% - 30px);
+      margin: 15px;
+    }
+  
+    .meme__inner-more {
+      max-width: 160px;
+    }
+  
+    .story {
+      padding: 40px 0;
+    }
+  
+    .paper {
+      padding: 40px 0;
+    }
+  
+    .paper__inner-links-link {
+      font-size: 42px;
+      line-height: 50px;
+    }
+  
+    .paper__inner-links-link small {
+      font-size: 20px;
+      line-height: 1;
+    }
+  
+    .wallet__inner-column-link-copy {
+      font-size: 20px;
+      line-height: 1;
+    }
+  
+    .join__inner-row-link {
+      width: calc(33.3% - 30px);
+    }
+  
+    .footer__inner {
+      padding: 0;
+    }
+  
+    .footer__inner-image {
+      max-width: 100px;
+    }
+  
+    .footer__inner-logo {
+      max-width: 100px;
+    }
+  
+    .footer__inner-column {
+      width: 100%;
+    }
+  
+    .story__inner-footer {
+      max-width: 220px;
+    }
+  
+    .article h4 {
+      font-size: 32px;
+      line-height: 40px;
+      padding: 10px 0;
+    }
+  
+    .article__inner {
+      padding-left: 10px;
+    }
+  
+    .article__inner-date {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .article__inner p {
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .earning__inner-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -ms-flex-direction: column;
+    }
+  
+    .earning__inner-row-card {
+      max-width: 220px;
+      margin: 15px auto;
+      width: 100%;
+    }
+  
+    .memeTemp {
+      padding: 20px 0 100px 0;
+    }
+  
+    .memeTemp__inner-content {
+      margin: 15px auto 0 auto;
+    }
+  
+    .memeTemp__inner-content-more {
+      font-size: 24px;
+      max-width: 180px;
+      margin: 10px auto 0 auto;
+    }
+  }
+  @media (max-width: 575px) {
+    section.container-fluid {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+    .team {
+      width: 100%;
+    }
+    .fud .section-image>img:first-of-type{
+      margin-bottom: 30px;
+    }
+    .ecosystem .section-text-list li,
+    .tokenomics-info>h2,
+    .tokenomics-burn>h2,
+    .section-text-text {
+      font-size: 26px;
+      line-height: 1;
+    }
+    .tokenomics-info>h2, .section-text-text {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .tokenomics-info>img {
+      width: 100px;
+      height: 100px;
+      margin-right: 15px;
+  }
+    .tokenomics-burn{
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 3px;
+    }
+    .tokenomics .col-12>.section-image .section-image-img{
+      max-width: 82%;
+      margin: 0 auto;
+      display: block;
+      height: unset;
+    }
+    .btn-img {
+      height: 60px;
+    }
+    .title-img {
+      height: 45px;
+    }
+    .fud .section-text>div {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .section-text-timer{
+        margin-top: 5px;
+    }
+    .ecosystem .section-text-list{
+      transform: unset;
+      line-height: 1;
+      column-gap: 20px;
+      max-width: 100%;
+      padding-bottom: 20px;
+    }
+    .ecosystem .section-text+.section-text>img:last-of-type {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .auto__container {
+      padding: 0 20px;
+    }
+  
+    .extra__container {
+      padding: 0 20px;
+    }
+  
+    h1 span {
+      font-size: 42px;
+      line-height: 52px;
+    }
+  
+    h1 span::after {
+      height: 4px;
+    }
+  
+    .earning__inner-footer-column-input span {
+      font-size: 28px;
+    }
+  
+    .earning__inner-footer-column-input input {
+      width: 165px;
+      line-height: 36px;
+    }
+  
+    .earning__inner-footer-btn {
+      font-size: 30px;
+    }
+  
+    .earning__inner-footer-btn img {
+      right: 10px;
+      height: 25px;
+      width: 35px;
+    }
+  
+    .paper__inner-subtitle {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  
+    .paper__inner-links {
+      margin: 20px auto 0 auto;
+    }
+  
+    .paper__inner-links-link {
+      font-size: 32px;
+      line-height: 40px;
+      padding: 5px 0;
+    }
+    .road {
+      padding: 40px 0;
+    }
+  
+    .card {
+      padding: 25px;
+      width: calc(100% - 50px);
+    }
+    .under-header .section-image-img {
+      width: 310px;
+    }
+    .under-header .col-12 .section-text>img{
+      width: 95%;
+    }
+    .under-header .section-text>a {
+      margin-top: 10px;
+    }
+    .ecosystem .section-text-list li,
+    .tokenomics-info>h2,
+    .tokenomics-burn>h2,
+    .section-text-text {
+      font-size: 19.5px;
+      line-height: 1;
+    }
+    .fud .section-text>div {
+      padding-top: 25px;
+      padding-bottom: 20px;
+  }
+  /*
+  .section-text-timer{
+    font-size: 3rem;
+  }
+  */
+  .tokenomics .col-12 .section-image{
+    margin-top: 20px;
+  }
+  .tokenomics .col-12>.section-image .section-image-img{
+    max-width: 75%;
+  }
+  .tokenomics-burn>img {
+    width: 32px;
+    height: 32px;
+  }
+    .team_row {
+      display: block;
+      grid-template-columns: 100%;
+      grid-column-gap: 0px;
+      row-gap: 35px;
+    }
+    .team_member{
+      margin: 0 auto;
+    }
+    .team_link+.team_link{
+      display: block;
+      margin-top: 40px;
+    }
+    .team_member_img {
+      max-width: 190px;
+    }
+    
+  }
